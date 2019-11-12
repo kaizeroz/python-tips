@@ -1,0 +1,6 @@
+sudo apt-get install clang && rvm install 1.9.3 --with-gcc=clang
+cd Downloads/Python-3.7.3/
+./configure
+make
+make test
+sudo make install
